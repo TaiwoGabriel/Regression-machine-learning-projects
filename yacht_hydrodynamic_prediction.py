@@ -25,8 +25,7 @@ import seaborn as sns
 
 # Importing dataset
 # Importing or Loading dataset
-#data = "C:/Users/Omomule Taiwo G/Desktop/phd_datasets_2/yacht_hyd.csv"
-data = "/mnt/lustre3p/users/tomomule/regression/yacht_hyd.csv"
+data = "C:/Users/Gabriel/Desktop/yacht_hyd.csv"
 features=['Long_pos', 'Prismatic_coeff','Length_disp_ratio','Beam_draught_ratio','Length_beam_ratio',
                                  'Froude_number','Residuary_resistance']
 df = pd.read_csv(data, delim_whitespace=True, names=features)
